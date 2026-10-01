@@ -1,0 +1,134 @@
+:root {
+    --spotlight-navy: #071522;
+    --spotlight-blue: #024e90;
+    --spotlight-orange: #eb7404;
+    --spotlight-muted: #59636e;
+}
+
+.spotlight-hero {
+    min-height: 500px;
+    background: var(--spotlight-navy);
+    color: #fff;
+}
+
+.hero-copy {
+    min-height: 500px;
+    background: var(--spotlight-navy);
+}
+
+.eyebrow {
+    color: var(--spotlight-orange);
+    font-size: .78rem;
+    font-weight: 900;
+    letter-spacing: 1.4px;
+}
+
+.hero-copy h1 {
+    line-height: 1.04;
+    letter-spacing: -1px;
+}
+
+.hero-copy h1 span {
+    color: var(--spotlight-orange);
+}
+
+.hero-text,
+.intro-text,
+.player-description {
+    color: var(--spotlight-muted);
+}
+
+.hero-copy .hero-text {
+    color: #cbd5df;
+    max-width: 34rem;
+}
+
+.hero-button {
+    background: var(--spotlight-orange);
+    color: #fff;
+}
+
+.hero-button:hover {
+    background: #ff8617;
+    color: #fff;
+}
+
+.hero-image {
+    min-height: 500px;
+}
+
+.player-photo {
+    height: 245px;
+    background: #dfe4e8;
+}
+
+.player-number {
+    color: var(--spotlight-orange);
+    font-size: .75rem;
+    font-weight: 900;
+    letter-spacing: 1px;
+}
+
+.role {
+    color: var(--spotlight-blue);
+    font-size: .82rem;
+    font-weight: 700;
+}
+
+.player-content a {
+    color: var(--spotlight-blue);
+}
+
+.player-content a:hover {
+    color: var(--spotlight-orange);
+}
+
+.story-link {
+    background: #f3f5f7;
+    color: #17202a;
+}
+
+.story-link strong {
+    color: #17202a;
+}
+
+.story-link span {
+    color: #68727c;
+    font-size: .75rem;
+}
+
+.story-link:hover strong {
+    color: var(--spotlight-blue);
+}
+
+@media (max-width: 991.98px) {
+    .spotlight-hero,
+    .hero-copy,
+    .hero-image {
+        min-height: 420px;
+    }
+
+    .player-photo {
+        height: 230px;
+    }
+}
+
+@media (max-width: 575.98px) {
+    .spotlight-hero,
+    .hero-copy {
+        min-height: 340px;
+    }
+
+    .hero-copy h1 {
+        line-height: 1.08;
+        letter-spacing: -.5px;
+    }
+
+    .hero-image {
+        min-height: 270px;
+    }
+
+    .player-photo {
+        height: 220px;
+    }
+}
